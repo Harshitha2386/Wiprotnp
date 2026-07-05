@@ -51,6 +51,6 @@ public class Project1 {
         }
         int salary = basic[index] + hra[index] + da - it[index];
         System.out.println("Emp No\tEmp Name\t\tDepartment\tDesignation\tSalary");
-        System.out.println(empNo[index] + "\t" + empName[index] + "\t\t"+ department[index] + "\t\t"+ designation + "\t" + salary);
+        System.out.println(empNo[index]+ "\t" + empName[index] + "\t\t"+ department[index] + "\t\t"+ designation + "\t" + salary);
     }
 }

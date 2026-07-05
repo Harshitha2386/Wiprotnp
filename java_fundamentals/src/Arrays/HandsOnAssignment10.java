@@ -30,5 +30,6 @@ public class HandsOnAssignment10 {
 	            }
 	        }
 	        System.out.print("]");
+	        sc.close();
 	    }
 }

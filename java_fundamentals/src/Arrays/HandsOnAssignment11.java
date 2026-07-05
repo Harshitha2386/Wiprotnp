@@ -16,5 +16,6 @@ public class HandsOnAssignment11 {
 	            }
 	        }
 	        System.out.println(flag);
+	        sc.close();
 	    }
 }

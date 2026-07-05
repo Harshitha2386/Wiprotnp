@@ -10,6 +10,7 @@ public class HandsOnAssignment2 {
         } else {
             System.out.println("Odd");
         }
+        sc.close();
 		
 	}
 

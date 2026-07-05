@@ -24,5 +24,7 @@ public class HandsOnAssignment9 {
             }
         }
         System.out.print("]");
+        sc.close();
+        
     }
 }

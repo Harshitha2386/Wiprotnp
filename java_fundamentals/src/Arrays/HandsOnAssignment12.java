@@ -17,5 +17,6 @@ public class HandsOnAssignment12 {
         System.out.print("[");
         System.out.print(result[0]+", "+result[1]);
         System.out.print("]");
+        sc.close();
     }
 }
