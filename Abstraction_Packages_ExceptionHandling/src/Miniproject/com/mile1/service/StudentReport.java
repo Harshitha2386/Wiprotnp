@@ -21,33 +21,35 @@ public class StudentReport {
             throw new NullMarksArrayException();
     }
 
-    // Find Grade
+
     public String findGrades(Student studentObject)
             throws NullStudentObjectException,
                    NullNameException,
                    NullMarksArrayException {
 
         validate(studentObject);
-
         int[] marks = studentObject.getMarks();
-
-        int failedSubjects = 0;
-
         for (int i = 0; i < marks.length; i++) {
-            if (marks[i] < 35)
-                failedSubjects++;
+            if (marks[i] < 35) {
+                return "F";
+            }
         }
 
-        if (failedSubjects == 0)
-            return "A";
-
-        else if (failedSubjects == 1)
-            return "B";
-
-        else if (failedSubjects == 2)
+        int sum = 0;
+        for (int i = 0; i < marks.length; i++) {
+            sum += marks[i];
+        }
+        if (sum < 150) {
             return "C";
-
-        else
-            return "No Grade";
+        } 
+        else if (sum < 200) {
+            return "B";
+        } 
+        else if (sum < 250) {
+            return "A";
+        } 
+        else {
+            return "A+";
+        }
     }
 }
