@@ -1,0 +1,9 @@
+Rain : 1
+Rivers : 1
+Roses : 1
+are : 1
+beautiful. : 1
+is : 1
+rapidly. : 1
+red. : 1
+run : 1
