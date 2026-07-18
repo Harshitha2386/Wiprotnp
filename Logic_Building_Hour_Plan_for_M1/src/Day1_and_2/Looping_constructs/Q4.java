@@ -1,4 +1,4 @@
-package Looping_constructs;
+package Day1_and_2.Looping_constructs;
 
 public class Q4 {
 	 public static void main(String[] args) {
